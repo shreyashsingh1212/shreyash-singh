@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mera Portfolio</title>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="reveal">
+    <div class="header-flex">
+      <img src="D:\coding 2\Screenshot 2025-03-17 142543.png" alt="Mera Logo">
+      <div>
+        <h1>CINEMATIX EDITZ</h1>
+        <p>MIRZAPURIYA EDITOR</p>
+      </div>
+      <button id="menu-btn" class="hamburger" onclick="toggleMenu()" aria-label="Open More Details Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="menu-content" class="menu-content">
+      <ul>
+        <li><a href="#about">Profile</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section id="about" class="reveal reveal-from-left">
+    <div class="about-flex">
+      <div class="about-text reveal">
+        <h2>Profile</h2>
+        <p>
+          <strong>MY SELF SHREYASH SINGH</strong> <br>
+          <strong>Bio:</strong> I'M A VIDEO EDITOR .<br>
+         
+          <strong>Location:</strong> MIRZAPUR UP <br>
+        </p>
+      </div>
+      <div class="animated-photo-container reveal reveal-from-right">
+        <img src="D:\coding 2\1000011247.jpg" alt="Mera Photo" class="animated-photo reveal" />
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="reveal">
+    <h2>Projects</h2>
+    <div class="project-video reveal reveal-from-bottom">
+      <h3>Project 1: [Project ka Naam]</h3>
+      <video src="mera-project-video.mp4" controls></video>
+      <p>Short description of project</p>
+    </div>
+    <div class="project-video reveal reveal-from-bottom">
+      <h3>Project 2: [Dusra Project]</h3>
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+      <p>Project explanation/notes</p>
+    </div>
+  </section>
+
+  <section id="contact" class="reveal reveal-from-bottom">
+    <h2>Contact</h2>
+    <div class="contact-social">
+      <a href="shreyashsingh808169gmail.com" title="Email" target="_blank" class="social-link reveal">
+        <svg height="32" width="32" viewBox="0 0 24 24" fill="#001f3f"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+      </a>
+      <a href="https://www.instagram.com/_shreyash._.singh_/" title="Instagram" target="_blank" class="social-link reveal">
+        <svg height="32" width="32" viewBox="0 0 448 512" fill="#E4405F"><path d="M224.1 141c-63.6 0-115.1 51.5-115.1 115.1s51.5 115.1 115.1 115.1 115.1-51.5 115.1-115.1S287.7 141 224.1 141zm0 190.2c-41.6 0-75.1-33.6-75.1-75.1s33.5-75.1 75.1-75.1 75.1 33.6 75.1 75.1-33.5 75.1-75.1 75.1zm146.4-194.3c0 14.9-12 26.9-26.9 26.9-14.9 0-26.9-12-26.9-26.9s12-26.9 26.9-26.9c14.9 0 26.9 12 26.9 26.9zm76.1 27.2c-1.7-35.3-9.9-66.7-36.2-92.9C388.7 10.7 357.3 2.5 322.1.7 286.7-1 257 .2 223.9.2c-33 0-62.8-1.2-98.1.5-35.2 1.8-66.5 10-92.7 36.3C10.8 55.2 2.5 86.6.8 121.8-1 157.1.2 186.8.2 219.9s-1.2 62.7.5 98c1.8 35.3 10 66.7 36.3 92.9 26.2 26.2 57.6 34.4 92.8 36.2 35.3 1.7 65 .5 98.1.5 33.1 0 62.7 1.2 98-0.5 35.1-1.8 66.5-10.1 92.7-36.3 26.2-26.2 34.4-57.6 36.2-92.9 1.7-35.3.5-65 .5-98.1s1.2-62.8-0.5-98.1zM398.8 413c-7.8 19.1-23 34.2-42.1 42.1-29.2 12.2-92.2 9.4-126.7 9.4-34.4 0-97.5 2.8-126.7-9.4-19.1-7.8-34.2-23-42.1-42.1-12.2-29.2-9.4-92.2-9.4-126.6 0-34.4-2.8-97.5 9.4-126.7C49.4 84.6 64.6 69.4 83.7 61.6c29.2-12.2 92.1-9.4 126.7-9.4 34.4 0 97.5-2.8 126.7 9.4 19.1 7.8 34.2 23 42.1 42.1 12.2 29.2 9.4 92.2 9.4 126.7s2.8 97.5-9.4 126.7z"/></svg>
+      </a>
+      <a href="https://facebook.com/aapkausername" title="Facebook" target="_blank" class="social-link reveal">
+        <svg height="32" width="32" viewBox="0 0 320 512" fill="#4267B2"><path d="M279.14 288l14.22-92.66h-88.91V126.34c0-25.35 12.42-50.06 52.24-50.06H293V6.26S259.5 0 225.36 0c-73 0-121 44.38-121 124.72v70.62H22.89V288h81.47v224h100.2V288z"/></svg>
+      </a>
+      <a href="https://youtube.com/@aapkausername" title="YouTube" target="_blank" class="social-link reveal">
+        <svg height="32" width="32" viewBox="0 0 576 512" fill="#FF0000"><path d="M549.655 124.083c-6.281-23.65-24.891-42.16-48.531-48.482C458.545 64 288 64 288 64s-170.545 0-213.124 11.601c-23.651 6.314-42.26 24.832-48.541 48.482C12.162 168.667 12.162 256 12.162 256s0 87.333 14.173 131.917c6.281 23.65 24.89 42.159 48.541 48.482C117.455 448 288 448 288 448s170.545 0 213.124-11.601c23.64-6.323 42.25-24.832 48.531-48.482C563.838 343.333 563.838 256 563.838 256s0-87.333-14.183-131.917zM231.818 334.667V177.333L384 256l-152.182 78.667z"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <script>
+    function toggleMenu() {
+      var menu = document.getElementById('menu-content');
+      menu.classList.toggle('show');
+    }
+    window.onclick = function(event) {
+      if (!event.target.matches('#menu-btn') && !event.target.closest('.menu-content')) {
+        var dropdowns = document.getElementsByClassName("menu-content");
+        for (var i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+
+    // REVEAL ANIMATION: Smooth entrance for all elements
+    document.addEventListener('DOMContentLoaded', function() {
+      const reveals = document.querySelectorAll('.reveal');
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if(entry.isIntersecting){
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.13 });
+      reveals.forEach(r => observer.observe(r));
+    });
+  </script>
+</body>
+</html>
